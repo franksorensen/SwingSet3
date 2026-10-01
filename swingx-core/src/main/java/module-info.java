@@ -40,6 +40,7 @@ module swingx.core {
 	requires java.prefs;
 	requires java.sql;
 	requires java.naming;
+	
 
 	requires transitive swingx.common;
 	requires swingx.graphics;
@@ -47,6 +48,13 @@ module swingx.core {
 	requires swingx.action;
 	requires swingx.painters;
 	
-	requires org.kohsuke.metainf_services;
+	provides org.jdesktop.swingx.plaf.LookAndFeelAddons with 
+		org.jdesktop.swingx.plaf.linux.LinuxLookAndFeelAddons,
+		org.jdesktop.swingx.plaf.macosx.MacOSXLookAndFeelAddons,
+		org.jdesktop.swingx.plaf.metal.MetalLookAndFeelAddons,
+		org.jdesktop.swingx.plaf.motif.MotifLookAndFeelAddons,
+		org.jdesktop.swingx.plaf.nimbus.NimbusLookAndFeelAddons,
+        org.jdesktop.swingx.plaf.windows.WindowsClassicLookAndFeelAddons,
+        org.jdesktop.swingx.plaf.windows.WindowsLookAndFeelAddons;
 
 }

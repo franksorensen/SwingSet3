@@ -12,7 +12,6 @@ import java.util.TreeSet;
 
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.Filer;
-import javax.annotation.processing.Processor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedSourceVersion;
 import javax.lang.model.SourceVersion;
@@ -21,14 +20,11 @@ import javax.tools.Diagnostic.Kind;
 import javax.tools.FileObject;
 import javax.tools.StandardLocation;
 
-import org.kohsuke.MetaInfServices;
-
 /**
  * An annotation processor that creates or updates a manifest with Java-Bean information.
  * 
  * @author kschaefer
  */
-@MetaInfServices(Processor.class)
 @SupportedSourceVersion(SourceVersion.RELEASE_11)
 public class JavaBeanProcessor extends AbstractProcessor {
 	

@@ -16,6 +16,10 @@
   <name>SwingX Graphics</name>
   <description>Graphics Utilities and Libraries for working with Java2D.</description>
 
+  <properties>
+    <project.jpms.module.name>swingx.graphics</project.jpms.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
         <groupId>${project.groupId}</groupId>

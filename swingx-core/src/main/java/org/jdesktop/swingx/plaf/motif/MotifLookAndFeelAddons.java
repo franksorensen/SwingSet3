@@ -22,12 +22,10 @@ import javax.swing.UIManager;
 
 import org.jdesktop.swingx.plaf.LookAndFeelAddons;
 import org.jdesktop.swingx.plaf.basic.BasicLookAndFeelAddons;
-import org.kohsuke.MetaInfServices;
 
 /**
  * Install Motif pluggable UI. 
  */
-@MetaInfServices(LookAndFeelAddons.class)
 public class MotifLookAndFeelAddons extends BasicLookAndFeelAddons {
 	
     @Override

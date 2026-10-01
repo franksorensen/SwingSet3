@@ -15,6 +15,11 @@
   <artifactId>swingx-action</artifactId>
   <name>SwingX Action Framework</name>
   
+  <properties>
+    <project.jpms.module.name>swingx.action</project.jpms.module.name>
+  </properties>
+
+  
   <dependencies>
     <dependency>
         <groupId>${project.groupId}</groupId>

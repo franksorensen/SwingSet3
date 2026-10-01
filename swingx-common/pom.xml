@@ -16,6 +16,10 @@
   <name>SwingX Commons</name>
   <description>Code common to all SwingX modules.</description>
 
+  <properties>
+    <project.jpms.module.name>swingx.common</project.jpms.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
         <groupId>${project.groupId}</groupId>

@@ -6,5 +6,8 @@ module swingx.common {
 	requires java.logging;
 	requires transitive java.compiler;
 	
-	requires org.kohsuke.metainf_services;
+	uses javax.annotation.processing.Processor;
+	
+	provides javax.annotation.processing.Processor
+		with org.jdesktop.beans.JavaBeanProcessor;
 }

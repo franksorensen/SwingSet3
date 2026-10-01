@@ -16,6 +16,10 @@
   <name>SwingX Test Support</name>
   <description>Code and classes to support testing SwingX.  Classes contained in this module are for internal SwingX use only.</description>
 
+  <properties>
+    <project.jpms.module.name>swingx.testsupport</project.jpms.module.name>
+  </properties>
+
   <dependencies>
 
     <dependency>

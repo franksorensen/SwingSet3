@@ -16,6 +16,10 @@
   <name>SwingX AutoComplete</name>
   <description>AutoComplete functionality for text components and combo boxes.</description>
 
+  <properties>
+    <project.jpms.module.name>swingx.autocomplete</project.jpms.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
         <groupId>${project.groupId}</groupId>

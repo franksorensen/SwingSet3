@@ -15,7 +15,19 @@
   <artifactId>swingx-core</artifactId>
   <name>SwingX Core</name>
 
+  <properties>
+    <project.jpms.module.name>swingx.core</project.jpms.module.name>
+  </properties>
+
   <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>swingx-action</artifactId>
+      <version>${project.version}</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
+  
     <dependency>
       <groupId>com.jhlabs</groupId>
       <artifactId>filters</artifactId>

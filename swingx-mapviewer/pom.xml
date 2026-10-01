@@ -15,6 +15,10 @@
   <artifactId>swingx-mapviewer</artifactId>
   <name>SwingX JXMapViewer continued</name>
 
+  <properties>
+        <project.jpms.module.name>swingx.mapviewer</project.jpms.module.name>
+  </properties>
+    
   <dependencies>
     <dependency>
         <groupId>${project.groupId}</groupId>
